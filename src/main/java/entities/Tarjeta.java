@@ -12,6 +12,11 @@ public class Tarjeta extends BaseEntity{
     public Tarjeta() {
         super();   
     }
+    public Tarjeta(int numero)
+    {
+    	this.numero=numero;
+    	valor=0;
+    }
 
     public int darNumero(){
         return numero;
